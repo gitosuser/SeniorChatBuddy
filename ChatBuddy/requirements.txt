@@ -5,39 +5,34 @@
 Flask>=2.3.0,<4.0.0
 Flask-CORS>=4.0.0
 
-# LangChain dependencies (compatible versions)
+# LangChain + Claude
 langchain>=0.1.0,<0.3.0
 langchain-anthropic>=0.1.0,<0.2.0
 langchain-core>=0.1.7,<0.3.0
-
-# Anthropic Claude API
 anthropic>=0.7.0,<1.0.0
-
-# Data validation and parsing
 pydantic>=2.0.0,<3.0.0
 
-# Environment management
+# Environment variables (API keys, etc)
 python-dotenv>=1.0.0
 
-# Weather Agent Dependencies (from partner's implementation)
-spacy>=3.0.0
+# Weather + location detection
+spacy>=3.7.0,<4.0.0
 dateparser>=1.0.0
-requests>=2.25.0
+requests>=2.25.0,<3.0.0
+# Optional: auto-install the English model so spacy.load("en_core_web_sm") works out of the box.
+# If you prefer manual download, you can delete this line.
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
-# Development dependencies
+# Router model / local model inference
+torch==2.9.0
+transformers==4.44.2
+accelerate>=0.22.0,<1.0.0
+huggingface_hub>=0.23.0,<1.0.0
+
+# Dev / QA / formatting / prod server
 pytest>=7.0.0
 pytest-cov>=4.0.0
 black>=23.0.0
 flake8>=6.0.0
-
-# Optional: For production deployment
 gunicorn>=21.0.0
-
-# For Router Model
-#llama-cpp-python
-#huggingface_hub
-transformers
-torch
-huggingface_hub
-
 

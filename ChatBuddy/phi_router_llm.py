@@ -57,51 +57,46 @@ class PhiRouterLLM:
         last_weather_summary: Optional[str],
         recent_chat_turns: str,
     ) -> str:
-        """
-        Builds the classification prompt. The model must output exactly
-        one of the allowed action tokens.
-        """
-
         summary_block = last_weather_summary or "None"
 
+        # IMPORTANT: we explicitly forbid any extra text.
         prompt = f"""You are a routing classifier for a senior-friendly chat assistant.
-Decide what the assistant should do next.
+Your job is to choose exactly ONE next action label, with no explanation.
 
 Conversation so far:
 {recent_chat_turns}
 
 User just said:
-"{user_input}"
+\"{user_input}\"
 
 Most recent weather summary (if any):
 {summary_block}
 
 Choose ONE next action:
 
-1. FETCH_WEATHER
-   - User is clearly asking for forecast, rain, temperature,
-     what to wear outside, or "should I go walking?" AND we have
-     NOT already fetched weather this turn.
+FETCH_WEATHER
+- User is asking about outside weather, rain, cold/warm, what to wear, or if it's okay to go for a walk AND we have NOT already answered weather this exact turn.
 
-2. ADVISE_FROM_WEATHER
-   - The user is asking follow-up safety/comfort questions
-     (for example: "So is it ok to walk?") AND we DO have a
-     recent weather summary we can use, so we should NOT call weather again.
+ADVISE_FROM_WEATHER
+- The user is asking follow-up safety/comfort questions (like “Is it safe to walk?” or “Do I need a jacket?”) AND we already have a recent weather summary.
 
-3. FETCH_DIRECTORY
-   - User asks for a phone number, address, or location of a service,
-     business, clinic, restaurant, etc.
+FETCH_DIRECTORY
+- The user is asking for a phone number, address, location, hours, or similar about a store, clinic, pharmacy, or other local service.
 
-4. CHAT
-   - Anything else: small talk, feelings, stories, general conversation.
+CHAT
+- Anything else: personal stories, feelings, emotional support, general talk.
 
-Answer with ONLY one of:
+You MUST answer with ONLY one of these tokens:
 FETCH_WEATHER
 ADVISE_FROM_WEATHER
 FETCH_DIRECTORY
 CHAT
+Do not include any other words or punctuation.
 """
         return prompt
+
+
+
 
     def invoke(
         self,
