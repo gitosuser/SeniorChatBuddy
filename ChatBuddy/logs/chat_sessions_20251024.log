@@ -1,0 +1,122 @@
+2025-10-24 20:00:25 - INFO - New chat session started: 20251024_200025
+2025-10-24 20:00:28 - INFO - New chat session started: 20251024_200028
+2025-10-24 20:02:08 - INFO - [USER] hello
+2025-10-24 20:02:08 - INFO - [INTENT] greeting (confidence: 0.95)
+2025-10-24 20:02:10 - INFO - [BOT] Hello! It's wonderful to meet you! 😊
+
+How are you doing today? Is there anything on your mind you'd like to chat about, or would you just like some friendly conversation?
+2025-10-24 20:07:22 - INFO - New chat session started: 20251024_200722
+2025-10-24 20:10:35 - INFO - New chat session started: 20251024_201035
+2025-10-24 20:10:39 - INFO - New chat session started: 20251024_201039
+2025-10-24 20:14:15 - INFO - New chat session started: 20251024_201415
+2025-10-24 20:14:16 - INFO - New chat session started: 20251024_201416
+2025-10-24 20:14:39 - INFO - [USER] will it rain after lunch?
+2025-10-24 20:14:39 - INFO - [INTENT] weather (confidence: 0.95)
+2025-10-24 20:14:41 - INFO - [BOT] In None during the night, it’ll be around 10°C with some rain.
+Wear something warm, like a sweater or coat. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:17:26 - INFO - New chat session started: 20251024_201726
+2025-10-24 20:18:45 - INFO - New chat session started: 20251024_201845
+2025-10-24 20:18:50 - INFO - New chat session started: 20251024_201850
+2025-10-24 20:18:56 - INFO - New chat session started: 20251024_201856
+2025-10-24 20:19:02 - INFO - New chat session started: 20251024_201902
+2025-10-24 20:23:05 - INFO - New chat session started: 20251024_202305
+2025-10-24 20:23:07 - INFO - New chat session started: 20251024_202307
+2025-10-24 20:23:30 - INFO - [USER] Will it rain after lunch?
+2025-10-24 20:23:30 - INFO - [INTENT] weather (confidence: 0.95)
+2025-10-24 20:23:30 - INFO - [BOT] ❌ Could not find location: Newark, CA
+2025-10-24 20:27:35 - INFO - New chat session started: 20251024_202735
+2025-10-24 20:27:42 - INFO - New chat session started: 20251024_202742
+2025-10-24 20:27:48 - INFO - New chat session started: 20251024_202748
+2025-10-24 20:27:51 - INFO - New chat session started: 20251024_202751
+2025-10-24 20:28:11 - INFO - New chat session started: 20251024_202811
+2025-10-24 20:28:13 - INFO - New chat session started: 20251024_202813
+2025-10-24 20:28:22 - INFO - [USER] will it rain after lunch?
+2025-10-24 20:28:22 - INFO - [INTENT] weather (confidence: 0.95)
+2025-10-24 20:28:23 - INFO - [BOT] ❌ Could not find location: San Francisco, CA
+2025-10-24 20:29:18 - INFO - New chat session started: 20251024_202918
+2025-10-24 20:29:34 - INFO - New chat session started: 20251024_202934
+2025-10-24 20:29:37 - INFO - New chat session started: 20251024_202937
+2025-10-24 20:29:51 - INFO - New chat session started: 20251024_202951
+2025-10-24 20:29:53 - INFO - New chat session started: 20251024_202953
+2025-10-24 20:30:02 - INFO - [USER] will it rain after lunch?
+2025-10-24 20:30:02 - INFO - [INTENT] weather (confidence: 0.95)
+2025-10-24 20:30:04 - INFO - [BOT] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:33:38 - INFO - New chat session started: 20251024_203338
+2025-10-24 20:33:40 - INFO - New chat session started: 20251024_203340
+2025-10-24 20:35:16 - INFO - [USER] I'm thinking about a walk after dinner.
+2025-10-24 20:35:20 - INFO - [INTENT] general (confidence: 0.85)
+2025-10-24 20:35:23 - INFO - [BOT] That sounds lovely! A walk after dinner can be so refreshing and good for digestion too. 
+
+What's the weather like where you are today? Are you planning to walk around your neighborhood, or do you have a favorite spot you like to visit?
+2025-10-24 20:35:59 - INFO - [USER] Can you find out what the weather will be?  Should I go walking?
+2025-10-24 20:36:02 - INFO - [INTENT] weather (confidence: 0.95)
+2025-10-24 20:36:03 - INFO - [BOT] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:36:48 - INFO - [USER] So, does that mean it is ok to walk?
+2025-10-24 20:36:51 - INFO - [INTENT] weather (confidence: 0.85)
+2025-10-24 20:36:53 - INFO - [BOT] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:38:41 - INFO - [USER] I want to go out to eat
+2025-10-24 20:38:44 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:38:47 - INFO - [BOT] That sounds lovely! Going out for a meal can be such a nice treat. 
+
+What kind of food are you in the mood for today? Do you have a favorite restaurant you like to visit, or are you thinking of trying somewhere new?
+2025-10-24 20:39:11 - INFO - [USER] Thai food sounds good
+2025-10-24 20:39:15 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:39:19 - INFO - [BOT] Oh, Thai food is delicious! The flavors are so vibrant and tasty. 
+
+Have you had Thai food before, or would this be your first time trying it? Some popular dishes are Pad Thai (stir-fried noodles) and Thai curries, which can be mild or spicy depending on what you like.
+
+Do you know of a Thai restaurant nearby, or would you like some suggestions on what to order?
+2025-10-24 20:39:30 - INFO - [USER] give me suggestions
+2025-10-24 20:39:33 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:39:50 - INFO - [BOT] I'd be happy to suggest some beginner-friendly Thai dishes!
+
+Pad Thai - Sweet and savory stir-fried noodles with peanuts. It's the most popular dish and not spicy.
+
+Thai Fried Rice - Simple and familiar, with vegetables, egg, and your choice of chicken or shrimp.
+
+Massaman Curry - A mild, slightly sweet curry with potatoes and peanuts. Very comforting!
+
+Spring Rolls - Great as an appetizer - fresh vegetables wrapped in rice paper.
+
+When you order, just let them know if you want it mild (not spicy). Most Thai restaurants are very accommodating!
+
+Do any of these sound appealing to you?
+2025-10-24 20:40:13 - INFO - [USER] is there  a restaurant near me?
+2025-10-24 20:40:15 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:40:20 - INFO - [BOT] I'm not able to see your location or search for restaurants near you, I'm afraid. 
+
+But here are some ways you could find a Thai restaurant nearby:
+- Ask a family member or friend for recommendations
+- Look in the phone book under "Restaurants - Thai"
+- If you use a smartphone or computer, you could search "Thai restaurant near me"
+
+Do you have someone who could help you look up local Thai restaurants? Or would you like to talk more about what you're looking forward to about going out to eat?
+2025-10-24 20:40:50 - INFO - [USER] how about Thai restaurants in Palo Alto, CA
+2025-10-24 20:40:53 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:40:59 - INFO - [BOT] Ah, Palo Alto! That's a lovely area with lots of good dining options.
+
+I don't have access to current restaurant listings or reviews, so I can't give you specific names or addresses. But Palo Alto definitely has Thai restaurants - it's a good-sized city with diverse food options!
+
+Here's what I'd suggest:
+- Call 411 (directory assistance) and ask for Thai restaurants in Palo Alto
+- Check the local newspaper for restaurant listings
+- Ask neighbors or friends if they have a favorite Thai spot
+
+Is there someone who could help you look up the specific restaurants and maybe even make a reservation? It's always nice to have that sorted before you go!
+2025-10-24 20:42:49 - INFO - [USER] which is a medical store near Palo Alto, CA
+2025-10-24 20:42:52 - INFO - [INTENT] general (confidence: 0.95)
+2025-10-24 20:42:57 - INFO - [BOT] I don't have access to current business listings or addresses, so I can't tell you specific medical stores or pharmacies in Palo Alto.
+
+However, Palo Alto has several options like CVS, Walgreens, and local pharmacies. You could:
+- Call 411 for pharmacy listings
+- Ask your doctor's office - they often know nearby pharmacies
+- Check the phone book under "Pharmacies" or "Drug Stores"
+
+Are you looking for a prescription pickup, or do you need something else from the pharmacy? If you need medication advice, it's best to speak with your doctor or pharmacist directly.
+2025-10-24 20:43:17 - INFO - [USER] can't you check google?
+2025-10-24 20:43:20 - INFO - [INTENT] weather (confidence: 0.75)
+2025-10-24 20:43:21 - INFO - [BOT] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.

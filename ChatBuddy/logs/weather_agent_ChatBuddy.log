@@ -1,0 +1,124 @@
+2025-10-24 20:14:15 - INFO - Weather agent initialized successfully
+2025-10-24 20:14:16 - INFO - Weather agent initialized successfully
+2025-10-24 20:14:39 - INFO - [WEATHER_INPUT] will it rain after lunch?
+2025-10-24 20:14:39 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:14:39 - INFO - [WEATHER_INTENT] location='None', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:14:39 - INFO - [WEATHER_API] Calling Open-Meteo API for None...
+2025-10-24 20:14:41 - INFO - [WEATHER_RESPONSE] In None during the night, it’ll be around 10°C with some rain.
+Wear something warm, like a sweater or coat. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:17:26 - INFO - Weather agent initialized successfully
+2025-10-24 20:18:45 - INFO - Weather agent initialized successfully
+2025-10-24 20:18:50 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:18:50 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:18:50 - INFO - [LOCATION_FALLBACK] Using default location: Newark, CA
+2025-10-24 20:18:50 - INFO - Weather agent initialized successfully
+2025-10-24 20:18:56 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:18:56 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:18:56 - INFO - [LOCATION_FALLBACK] Using default location: Newark, CA
+2025-10-24 20:18:56 - INFO - Weather agent initialized successfully
+2025-10-24 20:19:02 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:19:02 - INFO - [LOCATION_DETECTED] Atherton, California
+2025-10-24 20:19:02 - INFO - Weather agent initialized successfully
+2025-10-24 20:23:05 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:23:05 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:23:05 - INFO - [LOCATION_FALLBACK] Using default location: Newark, CA
+2025-10-24 20:23:05 - INFO - Weather agent initialized successfully
+2025-10-24 20:23:06 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:23:07 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:23:07 - INFO - [LOCATION_FALLBACK] Using default location: Newark, CA
+2025-10-24 20:23:07 - INFO - Weather agent initialized successfully
+2025-10-24 20:23:30 - INFO - [WEATHER_INPUT] Will it rain after lunch?
+2025-10-24 20:23:30 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:23:30 - INFO - [WEATHER_FIX] Location was None, using detected: Newark, CA
+2025-10-24 20:23:30 - INFO - [WEATHER_INTENT] location='Newark, CA', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:23:30 - INFO - [WEATHER_API] Calling Open-Meteo API for Newark, CA...
+2025-10-24 20:23:30 - INFO - [WEATHER_RESPONSE] ❌ Could not find location: Newark, CA
+2025-10-24 20:27:35 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:27:35 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:27:35 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:27:35 - INFO - Weather agent initialized successfully
+2025-10-24 20:27:42 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:27:42 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:27:42 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:27:42 - INFO - Weather agent initialized successfully
+2025-10-24 20:27:48 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:27:48 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:27:48 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:27:48 - INFO - Weather agent initialized successfully
+2025-10-24 20:27:51 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:27:51 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:27:51 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:27:51 - INFO - Weather agent initialized successfully
+2025-10-24 20:28:11 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:28:11 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:28:11 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:28:11 - INFO - Weather agent initialized successfully
+2025-10-24 20:28:12 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:28:13 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:28:13 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:28:13 - INFO - Weather agent initialized successfully
+2025-10-24 20:28:22 - INFO - [WEATHER_INPUT] will it rain after lunch?
+2025-10-24 20:28:22 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:28:22 - INFO - [WEATHER_FIX] Location was None, using detected: San Francisco, CA
+2025-10-24 20:28:22 - INFO - [WEATHER_INTENT] location='San Francisco, CA', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:28:22 - INFO - [WEATHER_API] Calling Open-Meteo API for San Francisco, CA...
+2025-10-24 20:28:23 - INFO - [WEATHER_RESPONSE] ❌ Could not find location: San Francisco, CA
+2025-10-24 20:29:18 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:29:18 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:29:18 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:29:18 - INFO - Weather agent initialized successfully
+2025-10-24 20:29:34 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:29:34 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:29:34 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:29:34 - INFO - Weather agent initialized successfully
+2025-10-24 20:29:37 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:29:37 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:29:37 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:29:37 - INFO - Weather agent initialized successfully
+2025-10-24 20:29:51 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:29:51 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:29:51 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:29:51 - INFO - Weather agent initialized successfully
+2025-10-24 20:29:53 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:29:53 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:29:53 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:29:53 - INFO - Weather agent initialized successfully
+2025-10-24 20:30:02 - INFO - [WEATHER_INPUT] will it rain after lunch?
+2025-10-24 20:30:02 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:30:02 - INFO - [WEATHER_FIX] Location was None, using detected: San Francisco, CA
+2025-10-24 20:30:02 - INFO - [WEATHER_FIX] Cleaned location: 'San Francisco, CA' → 'San Francisco'
+2025-10-24 20:30:02 - INFO - [WEATHER_INTENT] location='San Francisco', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:30:02 - INFO - [WEATHER_API] Calling Open-Meteo API for San Francisco...
+2025-10-24 20:30:04 - INFO - [WEATHER_RESPONSE] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:33:38 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:33:38 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:33:38 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:33:38 - INFO - Weather agent initialized successfully
+2025-10-24 20:33:40 - INFO - [LOCATION_DETECTION] Attempting to detect user location...
+2025-10-24 20:33:40 - WARNING - [LOCATION_DETECTION] API returned status 429
+2025-10-24 20:33:40 - INFO - [LOCATION_FALLBACK] Using default location: San Francisco, CA
+2025-10-24 20:33:40 - INFO - Weather agent initialized successfully
+2025-10-24 20:36:02 - INFO - [WEATHER_INPUT] Can you find out what the weather will be?  Should I go walking?
+2025-10-24 20:36:02 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:36:02 - INFO - [WEATHER_FIX] Cleaned location: 'San Francisco, CA' → 'San Francisco'
+2025-10-24 20:36:02 - INFO - [WEATHER_INTENT] location='San Francisco', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:36:02 - INFO - [WEATHER_API] Calling Open-Meteo API for San Francisco...
+2025-10-24 20:36:03 - INFO - [WEATHER_RESPONSE] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:36:51 - INFO - [WEATHER_INPUT] So, does that mean it is ok to walk?
+2025-10-24 20:36:51 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:36:51 - INFO - [WEATHER_FIX] Location was None, using detected: San Francisco, CA
+2025-10-24 20:36:51 - INFO - [WEATHER_FIX] Cleaned location: 'San Francisco, CA' → 'San Francisco'
+2025-10-24 20:36:51 - INFO - [WEATHER_INTENT] location='San Francisco', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:36:51 - INFO - [WEATHER_API] Calling Open-Meteo API for San Francisco...
+2025-10-24 20:36:53 - INFO - [WEATHER_RESPONSE] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
+2025-10-24 20:43:20 - INFO - [WEATHER_INPUT] can't you check google?
+2025-10-24 20:43:20 - INFO - [WEATHER_PROCESSING] Extracting weather intent...
+2025-10-24 20:43:20 - INFO - [WEATHER_FIX] Location was None, using detected: San Francisco, CA
+2025-10-24 20:43:20 - INFO - [WEATHER_FIX] Cleaned location: 'San Francisco, CA' → 'San Francisco'
+2025-10-24 20:43:20 - INFO - [WEATHER_INTENT] location='San Francisco', time_phrase='None', start_hour=0, end_hour=2
+2025-10-24 20:43:20 - INFO - [WEATHER_API] Calling Open-Meteo API for San Francisco...
+2025-10-24 20:43:21 - INFO - [WEATHER_RESPONSE] In San Francisco during the night, it’ll be around 16°C with some rain.
+A light jacket should be fine. There might be a light drizzle, so keep an umbrella handy.
