@@ -12,6 +12,7 @@ import os
 
 # Import our chat agent
 from chat_agent_implementation import ChatAgent
+from phi_router_llm import PhiRouterLLM
 
 app = Flask(__name__)
 app.secret_key = 'senior-chat-buddy-dev-key'  # Change in production
@@ -25,7 +26,11 @@ def get_or_create_chat_agent():
     global chat_agent
     if chat_agent is None:
         try:
-            chat_agent = ChatAgent()
+            router_llm = PhiRouterLLM()
+            chat_agent = ChatAgent(
+                small_router_llm=router_llm,
+                directory_agent=None  # or your DirectoryAgent
+            )
             print("✅ Chat agent initialized successfully")
         except Exception as e:
             print(f"❌ Error initializing chat agent: {e}")
