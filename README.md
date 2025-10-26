@@ -6,7 +6,7 @@ A modular, senior-friendly conversational assistant designed to support older ad
 This repository contains:
 - The production code for the chatbot (Flask app, RouterLLM, LangChain orchestration, and intent agents)
 - The presentation deck describing the problem, architecture, UX, social impact, and roadmap
-- (Coming soon) A short demo video
+- A short demo video
 
 ---
 
